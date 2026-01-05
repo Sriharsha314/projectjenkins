@@ -12,13 +12,13 @@ def expense_summary(name, expenses):
 
         summary_lines = []
         for cat, amt in category_totals.items():
-            summary_lines.append(f"{cat}: ₹{amt}")
+            summary_lines.append(f"{cat}: Rs.{amt}")
 
         summary = "\n".join(summary_lines)
 
     result = (
         f"User Name: {name}\n"
-        f"Total Expense: ₹{total}\n"
+        f"Total Expense: Rs.{total}\n"
         f"Category Summary:\n"
         f"{summary}\n"
     )

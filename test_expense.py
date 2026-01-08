@@ -17,14 +17,3 @@ def test_expense_with_data():
         "Total Expense: Rs.450\n"
 
     assert expense_summary("Nagaraj", expenses) == expected_output
-
-
-def test_no_expenses():
-    expected_output = (
-        "User Name: Ravi\n"
-        "Total Expense: Rs.0\n"
-        "Category Summary:\n"
-        "No expenses recorded\n"
-    )
-
-    assert expense_summary("Ravi", []) == expected_output

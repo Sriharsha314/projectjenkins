@@ -18,9 +18,9 @@ def expense_summary(name, expenses):
 
     result = (
         f"User Name: {name}\n"
-        f"Total Expense: Rs.{total}\n"
         f"Category Summary:\n"
         f"{summary}\n"
+        f"Total Expense: Rs.{total}\n"
     )
     return result
 

@@ -11,10 +11,10 @@ def test_expense_with_data():
 
     expected_output = (
         "User Name: Nagaraj\n"
-        "Total Expense: Rs.450\n"
         "Category Summary:\n"
         "Food: Rs.300\n"
         "Travel: Rs.150\n"
+        "Total Expense: Rs.450\n"
     )
 
     assert expense_summary("Nagaraj", expenses) == expected_output
@@ -23,8 +23,8 @@ def test_expense_with_data():
 def test_no_expenses():
     expected_output = (
         "User Name: Ravi\n"
-        "Total Expense: Rs.0\n"
         "Category Summary:\n"
+        "Total Expense: Rs.0\n"
         "No expenses recorded\n"
     )
 

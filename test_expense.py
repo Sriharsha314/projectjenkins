@@ -24,8 +24,8 @@ def test_no_expenses():
     expected_output = (
         "User Name: Ravi\n"
         "Category Summary:\n"
-        "Total Expense: Rs.0\n"
         "No expenses recorded\n"
+        "Total Expense: Rs.0\n"
     )
 
     assert expense_summary("Ravi", []) == expected_output
